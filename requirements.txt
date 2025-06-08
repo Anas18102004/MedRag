@@ -1,10 +1,10 @@
-flask==2.3.3
 gunicorn==21.2.0
-sentence-transformers==2.2.2
 huggingface_hub==0.19.4
-faiss-cpu==1.8.0
-numpy<2  # Required for FAISS compatibility
-google-generativeai==0.3.2  # For Gemini integration
 regex==2023.10.3  # For text preprocessing
 requests==2.31.0  # Required by multiple dependencies
-protobuf==4.25.3  # Required by google-generativeai
+flask==3.0.2
+faiss-cpu==1.11.0
+numpy==1.24.4
+sentence-transformers==4.1.0
+google-generativeai==0.3.2
+protobuf==4.25.3  # Ensure compatibility with google-generativeai
